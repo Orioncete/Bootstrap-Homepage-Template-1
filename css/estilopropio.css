@@ -1,0 +1,106 @@
+.fondo {
+    background-image: url("http://lesbicanarias.es/wp-content/uploads/2008/06/mujer-trabajando.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20em 4em;
+    color: white;
+    text-shadow: -.1em .1em .3em black;
+}
+div>.glyphicon {
+    font-size: 4em;
+}
+section {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+section .col-md-3 {
+    padding: 3em;
+    min-height: 15%;
+    margin: .5em;
+    align-self: center;
+    flex: 0 0 33%;
+}
+footer .col-md-10 {
+    display: flex!important;
+    flex-flow: row wrap!important;
+    justify-content: space-between!important;
+}
+footer div .col-md-3 {
+    flex: 0 0 25%!important;
+    align-self: flex-start!important;
+}
+footer div:nth-child(2) {
+    background-color: black;
+    color: white;
+    border-radius: 0;
+    padding: 2em;
+}
+footer div:nth-child(2) h3 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+footer div:nth-child(2) .col-md-3 {
+    padding: 1.5em 0;
+}
+footer div .col-md-3:last-child .btn-link {
+    width: 12em!important;
+}
+footer .btn-link {
+    width: 8em!important;
+    text-align: left!important;
+    padding: 0;
+    margin: 0!important;
+    border-bottom: solid .1em lightgrey;
+    border-radius: 0;
+}
+footer .btn-link:last-child {
+    border-bottom: none;
+}
+footer a, p {
+    color:lightgray;
+    margin-left: -1em;
+}
+footer a {
+    text-decoration: underline;
+}
+footer div>p:first-of-type {
+    margin: 0 2em 0 0;
+}
+footer button span:first-of-type {
+    float: left;
+    margin-top: 1em;
+    color: lightgray;
+}
+footer button span:last-of-type {
+    float: right;
+}
+header p:first-of-type {
+    text-transform: uppercase;
+    font-style: italic;
+}
+header a span {
+    vertical-align: text-bottom;
+}
+header a[type="button"] {
+    color: black;
+    height: 2em!important;
+    margin-top: 5em!important;
+}
+@media only screen and (max-width:767px) {
+    header a[type="button"] {
+        margin-top: 0!important;
+        float: right;
+    }
+    .fondo {
+        max-height: 16.5em!important;
+        padding: 21em 4em;
+    }
+}
+@media only screen and (max-width : 979px) {
+    section {
+        width: 100%;
+        margin: 0 auto!important;
+    }
+}
